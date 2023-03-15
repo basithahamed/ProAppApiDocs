@@ -25,15 +25,16 @@ html {
 
 .top-header {
     padding: 10px;
-    background-color: rgb(40, 44, 59);
-    color: white;
+    background-color:#263659;
+    color: black;
     justify-content: space-between;
-    height: 7%;
+    height: 12%;
     border-bottom: 1px solid white;
 }
 
 .top-heading {
     text-align: center;
+
     flex-grow: 1;
 }
 
@@ -55,7 +56,7 @@ html {
     width: 80%;
     height: 100%;
     transition: 0.5s;
-    background-color: rgb(40, 44, 59);
+    background-color: rgb(235, 237, 239);
     color: white;
     padding: 10px;
     z-index: 20;
@@ -72,11 +73,13 @@ html {
 .api-doc-heading {
     display: block;
     width: 100%;
+    color: black;
     font-size: 27px;
     margin: 5px;
 }
 
 .common-api-li {
+    color: #000;
     list-style-type: none;
     font-size: 20px;
     width: 100%;
@@ -84,7 +87,11 @@ html {
 }
 
 .common-api-li:hover {
-    background-color: rgb(29, 33, 44);
+    /* background-color: rgb(29, 33, 44); */
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
 }
 
 .common-ul {
@@ -114,7 +121,7 @@ html {
 
 .code-section {
     transition: 0.5s;
-    background-color: rgb(40, 44, 59);
+    background-color: #263659;
     color: white;
     width: 35%;
 }
@@ -218,7 +225,14 @@ html {
     border: 1px solid rgba(0, 0, 0, 0.3);
     overflow-wrap: break-word;
 }
-
+.note-head
+{
+    font-size: 25px;
+}
+.note-desc
+{
+    font-size: 20px;
+}
 /* API description styling ends here */
 
 /* API example code styling starts here */
